@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone PipelineExercise2') {
             steps {
-                git branch: './main', url:'https://github.com/lsgarwood/PipelineExercise.git'
+              git branch: 'main', url: 'https://github.com/lsgarwood/PipelineExercise2.git/'
             }
         }
         stage('Run Script') {
