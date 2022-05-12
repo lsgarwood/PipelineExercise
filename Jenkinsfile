@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Run Script') {
             steps {
-                sh 'myscript'
+                sh 'sh ./myscript'
             }
         }
         stage('Archive Artifacts') {
